@@ -57,12 +57,13 @@ To setup your new Raspberry Pi, refer to "THE OFFICAL Raspberry Pi Beginner's Gu
 * sudo python3 setup.py install
 
 ## Preparing ThingSpeak
-1. Sign-up with a mathwork account
-2. Make a channel and name Field 1 with Temperature (°C) and Field 2 with Humidity (%)
-3. Get API Keys from "Write API Key" in menu tab "API KEYS". This API key will be used in the code of the following section.
+1. Sign-up with a mathwork account.
+2. Make a channel and name it with "Raspberry Pi + DHT22 Temperature & Humidity Sensor".
+3. Name Field 1 with Temperature (°C) and Field 2 with Humidity (%).
+4. Get API Keys from "Write API Key" in menu tab "API KEYS". This API key will be used in the code of the following section.
 
 ## Programming
-Thonny Python IDE is used in this project to run the codes. The codes with comments can be found in ThingSpeakDHT22.py in this respository. Do take note that API key has to be adapted to the one found in created thingspeak's channel. The is recommended to run for check and a result in Python console should be shown such in file:"Python_console_readings.png". Then go into thingspeak channel:"Raspberry Pi + DHT22 Temperature & Humidity Sensor" to see the visualized data. 
+Thonny Python IDE is used in this project to run the codes. The codes with comments can be found in ThingSpeakDHT22.py in this repository. Do take note that API key has to be adapted to the one found in created thingspeak's channel. The is recommended to run for error check and a result in Python console should be shown as such in file:"Python_console_readings.png". Then go into thingspeak channel:"Raspberry Pi + DHT22 Temperature & Humidity Sensor" to see the visualized data. 
 
 ## Visualisation of Data on ThingSpeak
 Refer to file: 
