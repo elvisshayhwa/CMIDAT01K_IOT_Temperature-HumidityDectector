@@ -40,7 +40,21 @@ Then, plug the fan into the smartplug.
 Now, the hardwares are all connected and the next software setup can be proceeded.
 
 ## Software Setup
+To setup your new Raspberry Pi, refer to "THE OFFICAL Raspberry Pi Beginner's Guide, Chapter 2". 
+1. Once it's all set and ready, let's proceed to updating the Raspberry Pi by running the following commands:
+* sudo apt-get update
+* sudo apt-get upgrade
+2. Now, let's install both python 3 and pip with the following command:
+* sudo apt-get install python3-dev python3-pip
+3. Then, update the setuptools, wheel and pip of python packages to the latest version:
+* sudo python3 -m pip install - upgrade pip setuptools wheel
+4. Lastly, using pip to install Adafruit's DHT library to Raspberry Pi. This allows Python library to interact with DHT22. 
+* git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+* cd Adafruit_Python_DHT
+* sudo python3 setup.py install
 
+
+## Programming
 
 Recommendation:
 This project could be done better if HS110 is integrated directly into Raspberry Pi 3 to automate the mechanical fan when an uncomfortable living condition in terms of humidity and tempeature is detected in the room. 
