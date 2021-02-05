@@ -28,7 +28,18 @@ DHT22 is a sensor which ables to detect humidity in % and temperature in °C. DH
 - Pin 2 = SDA, data out
 - Pin 3 = N/C, do not connect
 - Pin 4 = GND, ground
+### DHT22 and Pi Circuit
+Steps to connect DHT22 to Raspberry Pi are described in this section. A circuit diagram can be found in the respiratory:"Circuit of DHT22 and Pi.PNG"
+1. Place DHT22 at the top row of breadboard.
+2. Place a 10k resistor between Pin 1 Pi and Pin 2 DHT22.
+3. Wire Physical Pin 1 Pi(3v3 power) to Pin 1 DHT22. (refer to red wire and blue wire)
+4. Wire Physical Pin 7 Pi(GPIO 4) to Pin 2 DHT22. (refer to green wire)
+5. Wire Physical Pin 6 Pi to Pin 4(Ground) DHT22. (refer to black wire)
 
+Then, plug the fan into the smartplug. 
+Now, the hardwares are all connected and the next software setup can be proceeded.
+
+## Software Setup
 
 
 Recommendation:
