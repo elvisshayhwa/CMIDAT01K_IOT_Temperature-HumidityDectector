@@ -2,6 +2,7 @@
 ## Story
 Living underground is notoriously known for its high humidity and temperature in the summer. As a student, I tend to opt for cheaper room to live in. Thus, living in a bedroom under the ground level of an apartment with tiny windows and sub-standard ventilation system is common. Especially in the summer, the living condition can get quite unbearable when the air in underground living spaces get warmer and warm air "holds" more moisture, hence the humidity gets higher. This IoT project is made to improve the living condition of underground bedroom in the summer by monitoring the humidity and temperature of the bedroom remotely. Then, ventilating the air in the underground bedroom wirelessly, thus increase air circulation in the room to prevent stagnant summer air that holds moisture and heat.
 The idea behind this project is to implement a humidity and temperature detector, dht22 with a Raspberry Pi 3 and visualize the data into ThingSpeak. With the help of ThingSpeak, the condition of the air in underground bedroom can be monitered. This is even more convinent with ThingView being installed on mobile phone, where accessing the readings of humidity and temperature in the underground bedroom is just a touch away. Then a mechanical fan can be wirelessly set to on/off by using a smart plug, TP-Link HS110. Hence starting to ventilate the bedroom when the temperature and humidity in the room is deemed uncomfortable to be inside.
+## Pipeline of this IoT Project
 
 ## Things needed
 ### Hardware components
@@ -59,7 +60,16 @@ To setup your new Raspberry Pi, refer to "THE OFFICAL Raspberry Pi Beginner's Gu
 3. Get API Keys from "Write API Key" in menu tab "API KEYS". This API key will be used in the code of the following section.
 
 ## Programming
-Thonny Python IDE is used in this project to run the codes. The codes with comments can be found in ThingSpeakDHT22.py in this respository. Do take note that API key has to be adapted to the one found in created thingspeak's channel.
+Thonny Python IDE is used in this project to run the codes. The codes with comments can be found in ThingSpeakDHT22.py in this respository. Do take note that API key has to be adapted to the one found in created thingspeak's channel. The is recommended to run for check and a result in Python console should be shown such in file:"Python_console_readings.png". Then go into thingspeak channel:"Raspberry Pi + DHT22 Temperature & Humidity Sensor" to see the visualized data. 
+
+## Visualation of Data on ThingSpeak and ThingView
+Refer to file: 
+## Preparing the fan 
+Plug in the smart plug into a socket and connect it to Wifi with Kasa app. Then, plug in the fan into smart plug. Once it's connected, the fan can remotely switch on/off. 
+
+## Video
+
+
 
 Recommendation:
 This project could be done better if HS110 is integrated directly into Raspberry Pi 3 to automate the mechanical fan when an uncomfortable living condition in terms of humidity and tempeature is detected in the room. 
