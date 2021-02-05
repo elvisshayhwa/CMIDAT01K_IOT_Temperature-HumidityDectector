@@ -37,7 +37,9 @@ Steps to connect DHT22 to Raspberry Pi are described in this section. A circuit 
 4. Wire Physical Pin 7 Pi(GPIO 4) to Pin 2 DHT22. (refer to green wire)
 5. Wire Physical Pin 6 Pi to Pin 4(Ground) DHT22. (refer to black wire)
 
-Then, plug the fan into the smartplug. 
+### Preparing the fan 
+Plug in the smart plug into a socket and connect it to Wifi with Kasa app. Then, plug in the fan into smart plug. Once it's connected, the fan can remotely switch on/off.
+
 Now, the hardwares are all connected and the next software setup can be proceeded.
 
 ## Software Setup
@@ -63,9 +65,6 @@ Thonny Python IDE is used in this project to run the codes. The codes with comme
 
 ## Visualisation of Data on ThingSpeak
 Refer to file: 
-
-## Preparing the fan 
-Plug in the smart plug into a socket and connect it to Wifi with Kasa app. Then, plug in the fan into smart plug. Once it's connected, the fan can remotely switch on/off.
 
 ## Viewing the visualisation on your Phone
 To access the visualized signal data on your phone, it can be done either by accessing thingspeak.com with phone's browser or through Thingview app. This can be easily done by installing Thingview app onto phone and sign in with Thingspeak account. Then key in the channel id of "Raspberry Pi + DHT22 Temperature & Humidity Sensor". Figure in file:"xxxx" shows the visualisation of humidity and temperature readings in the underground bedroom with time as x-axis. 
