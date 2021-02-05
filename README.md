@@ -72,6 +72,7 @@ To access the visualized signal data on your phone, it can be done either by acc
 
 ## Video
 Refer to file:"xxxxx"
+Simulating the summer situation, turn on the heater to higher
 
 
 ## Recommendation:
