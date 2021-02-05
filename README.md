@@ -48,7 +48,7 @@ To setup your new Raspberry Pi, refer to "THE OFFICAL Raspberry Pi Beginner's Gu
 * sudo apt-get install python3-dev python3-pip
 3. Then, update the setuptools, wheel and pip of python packages to the latest version:
 * sudo python3 -m pip install - upgrade pip setuptools wheel
-4. Lastly, using pip to install Adafruit's DHT library to Raspberry Pi. This allows Python library to interact with DHT22. 
+4. Lastly, using pip to install Adafruit's DHT library to Raspberry Pi by writing the following command in the terminal. This allows Python library to interact with DHT22. 
 * git clone https://github.com/adafruit/Adafruit_Python_DHT.git
 * cd Adafruit_Python_DHT
 * sudo python3 setup.py install
