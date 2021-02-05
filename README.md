@@ -53,8 +53,13 @@ To setup your new Raspberry Pi, refer to "THE OFFICAL Raspberry Pi Beginner's Gu
 * cd Adafruit_Python_DHT
 * sudo python3 setup.py install
 
+## Preparing ThingSpeak
+1. Sign-up with a mathwork account
+2. Make a channel and name Field 1 with Temperature (°C) and Field 2 with Humidity (%)
+3. Get API Keys from "Write API Key" in menu tab "API KEYS". This API key will be used in the code of the following section.
 
 ## Programming
+Thonny Python IDE is used in this project to run the codes. The codes with comments can be found in ThingSpeakDHT22.py in this respository. Do take note that API key has to be adapted to the one found in created thingspeak's channel.
 
 Recommendation:
 This project could be done better if HS110 is integrated directly into Raspberry Pi 3 to automate the mechanical fan when an uncomfortable living condition in terms of humidity and tempeature is detected in the room. 
