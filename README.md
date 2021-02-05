@@ -22,7 +22,7 @@ The idea behind this project is to implement a humidity and temperature detector
 
 ## Hardware Setup
 In this section, the process of connecting DHT22 sensor to Raspberry Pi is described
-### Overview of DHT22 
+### Overview of DHT22 (refer to diagram of DHT22 with numbered pins)
 DHT22 is a sensor which ables to detect humidity in % and temperature in °C. DHT22 
 
 
