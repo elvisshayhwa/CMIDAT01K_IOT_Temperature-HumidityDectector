@@ -61,14 +61,18 @@ To setup your new Raspberry Pi, refer to "THE OFFICAL Raspberry Pi Beginner's Gu
 ## Programming
 Thonny Python IDE is used in this project to run the codes. The codes with comments can be found in ThingSpeakDHT22.py in this respository. Do take note that API key has to be adapted to the one found in created thingspeak's channel. The is recommended to run for check and a result in Python console should be shown such in file:"Python_console_readings.png". Then go into thingspeak channel:"Raspberry Pi + DHT22 Temperature & Humidity Sensor" to see the visualized data. 
 
-## Visualation of Data on ThingSpeak and ThingView
+## Visualisation of Data on ThingSpeak
 Refer to file: 
+
 ## Preparing the fan 
-Plug in the smart plug into a socket and connect it to Wifi with Kasa app. Then, plug in the fan into smart plug. Once it's connected, the fan can remotely switch on/off. 
+Plug in the smart plug into a socket and connect it to Wifi with Kasa app. Then, plug in the fan into smart plug. Once it's connected, the fan can remotely switch on/off.
+
+## Viewing the visualisation on your Phone
+To access the visualized signal data on your phone, it can be done either by accessing thingspeak.com with phone's browser or through Thingview app. This can be easily done by installing Thingview app onto phone and sign in with Thingspeak account. Then key in the channel id of "Raspberry Pi + DHT22 Temperature & Humidity Sensor". Figure in file:"xxxx" shows the visualisation of humidity and temperature readings in the underground bedroom with time as x-axis. 
 
 ## Video
+Refer to file:"xxxxx"
 
 
-
-Recommendation:
+## Recommendation:
 This project could be done better if HS110 is integrated directly into Raspberry Pi 3 to automate the mechanical fan when an uncomfortable living condition in terms of humidity and tempeature is detected in the room. 
