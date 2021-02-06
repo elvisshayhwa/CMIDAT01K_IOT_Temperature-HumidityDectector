@@ -63,13 +63,13 @@ To setup your new Raspberry Pi, refer to "THE OFFICAL Raspberry Pi Beginner's Gu
 4. Get API Keys from "Write API Key" in menu tab "API KEYS". This API key will be used in the code of the following section.
 
 ## Programming
-Thonny Python IDE is used in this project to run the codes. The codes with comments can be found in ThingSpeakDHT22.py in this repository. Do take note that API key has to be adapted to the one found in created thingspeak's channel. The is recommended to run for error check and a result in Python console should be shown as such in file:"Python_console_readings.png". Then go into thingspeak channel:"Raspberry Pi + DHT22 Temperature & Humidity Sensor" to see the visualized data. 
+Thonny Python IDE is used in this project to run the codes. The codes with comments can be found in ThingSpeakDHT22.py in this repository. Do take note that API key has to be adapted to the one found in created thingspeak's channel. The is recommended to run for error check. Then go into thingspeak channel:"Raspberry Pi + DHT22 Temperature & Humidity Sensor" to see the visualized data. 
 
 ## Visualization of Data on ThingSpeak
-Refer to file: 
+Refer to file:"ThingSpeakVisualization.png" 
 
 ## Viewing the visualization on your Phone
-To access the visualized signal data on your phone, it can be done either by accessing thingspeak.com with phone's browser or through Thingview app. This can be easily done by installing Thingview app onto phone and sign in with Thingspeak account. Then key in the channel id of "Raspberry Pi + DHT22 Temperature & Humidity Sensor". Figure in file:"xxxx" shows the visualisation of humidity and temperature readings in the underground bedroom with time as x-axis. 
+To access the visualized signal data on your phone, it can be done either by accessing thingspeak.com with phone's browser or through Thingview app. This can be easily done by installing Thingview app onto phone and sign in with Thingspeak account. Then key in the channel id of "Raspberry Pi + DHT22 Temperature & Humidity Sensor". Figure in file:"ThingViewVIsualization.jpeg" shows the visualisation of humidity and temperature readings in the underground bedroom with time as x-axis. 
 
 ## Video
 Refer to file:"xxxxx".
