@@ -3,7 +3,7 @@
 Living underground is notoriously known for its high humidity and temperature in the summer. As a student, I tend to opt for cheaper room to live in. Thus, living in a bedroom under the ground level of an apartment with tiny windows and sub-standard ventilation system is common. Especially in the summer, the living condition can get quite unbearable when the air in underground living spaces get warmer and warm air "holds" more moisture, hence the humidity gets higher. This IoT project is made to improve the living condition of underground bedroom in the summer by monitoring the humidity and temperature of the bedroom remotely. Then, ventilating the air in the underground bedroom wirelessly, thus increase air circulation in the room to prevent stagnant summer air that holds moisture and heat.
 The idea behind this project is to implement a humidity and temperature detector, dht22 with a Raspberry Pi 3 and visualize the data into ThingSpeak. With the help of ThingSpeak, the condition of the air in underground bedroom can be monitered. This is even more convinent with ThingView being installed on mobile phone, where accessing the readings of humidity and temperature in the underground bedroom is just a touch away. Then a mechanical fan can be wirelessly set to on/off by using a smart plug, TP-Link HS110. Hence starting to ventilate the bedroom when the temperature and humidity in the room is deemed uncomfortable to be inside.
 ## Pipeline of this IoT Project
-Pipeline of this IoT project can be found in file:"My_IoT_Pipeline.png". The pipeline diagram depicts the problem narrated in the "Story" paragraph to solution of it.
+Pipeline of this IoT project can be found in file:"My_IoT_Pipeline.png". The pipeline diagram depicts the problem narrated in the "Story" paragraph to solution of it. The pipeline of this IoT project is narrated in a video.
 
 ## Things needed
 ### Hardware components
@@ -72,7 +72,7 @@ Refer to file:"ThingSpeakVisualization.png"
 To access the visualized signal data on your phone, it can be done either by accessing thingspeak.com with phone's browser or through Thingview app. This can be easily done by installing Thingview app onto phone and sign in with Thingspeak account. Then key in the channel id of "Raspberry Pi + DHT22 Temperature & Humidity Sensor". Figure in file:"ThingViewVIsualization.jpeg" shows the visualisation of humidity and temperature readings in the underground bedroom with time as x-axis. 
 
 ## Video
-Refer to file:"xxxxx".
+Refer to file:"IoT_Temp&Humid.mp4".
 The video shows the pipeline of this IoT project and a simulation experiment is done to test the feasibility of this IoT project. The summer summer condition in the underground bedroom is simulated by turning on heater to warm up the room. Then, after the 5 minutes mark, fan is switched on remotely using Kasa app and the temperature and humidity in the room are monitored with both Python script and ThingSpeak visualization. turn on the heater to higher
 
 
