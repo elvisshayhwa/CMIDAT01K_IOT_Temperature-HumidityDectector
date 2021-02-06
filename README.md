@@ -73,7 +73,7 @@ ThingSpeak Channel link: https://thingspeak.com/channels/1297891
 To access the visualized signal data on your phone, it can be done either by accessing thingspeak.com with phone's browser or through Thingview app. This can be easily done by installing Thingview app onto phone and sign in with Thingspeak account. Then key in the channel id of "Raspberry Pi + DHT22 Temperature & Humidity Sensor". Figure in file:"ThingViewVIsualization.jpg" shows the visualisation of humidity and temperature readings in the underground bedroom with time as x-axis. 
 
 ## Video
-Refer to file:"IoT_Temp&Humid.txt".
+Direct link to video:"https://vimeo.com/509081086".
 The video shows the pipeline of this IoT project and a simulation experiment is done to test the feasibility of this IoT project. The summer summer condition in the underground bedroom is simulated by turning on heater to warm up the room. Then, after the 5 minutes mark, fan is switched on remotely using Kasa app and the temperature and humidity in the room are monitored with both Python script and ThingSpeak visualization. turn on the heater to higher
 
 
