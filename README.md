@@ -66,11 +66,11 @@ To setup your new Raspberry Pi, refer to "THE OFFICAL Raspberry Pi Beginner's Gu
 Thonny Python IDE is used in this project to run the codes. The codes with comments can be found in ThingSpeakDHT22.py in this repository. Do take note that API key has to be adapted to the one found in created thingspeak's channel. The is recommended to run for error check. Then go into thingspeak channel:"Raspberry Pi + DHT22 Temperature & Humidity Sensor" to see the visualized data. 
 
 ## Visualization of Data on ThingSpeak
-Refer to file:"ThingSpeakVisualization.png" 
+Refer to file:"ThingSpeakVisualization.png". The graphs shows the humidity and temperature readings of the underground bedroom respectively against time. 
 ThingSpeak Channel link: https://thingspeak.com/channels/1297891
 
 ## Viewing the visualization on your Phone
-To access the visualized signal data on your phone, it can be done either by accessing thingspeak.com with phone's browser or through Thingview app. This can be easily done by installing Thingview app onto phone and sign in with Thingspeak account. Then key in the channel id of "Raspberry Pi + DHT22 Temperature & Humidity Sensor". Figure in file:"ThingViewVIsualization.jpeg" shows the visualisation of humidity and temperature readings in the underground bedroom with time as x-axis. 
+To access the visualized signal data on your phone, it can be done either by accessing thingspeak.com with phone's browser or through Thingview app. This can be easily done by installing Thingview app onto phone and sign in with Thingspeak account. Then key in the channel id of "Raspberry Pi + DHT22 Temperature & Humidity Sensor". Figure in file:"ThingViewVIsualization.jpg" shows the visualisation of humidity and temperature readings in the underground bedroom with time as x-axis. 
 
 ## Video
 Refer to file:"IoT_Temp&Humid.mp4".
