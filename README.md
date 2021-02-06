@@ -65,15 +65,15 @@ To setup your new Raspberry Pi, refer to "THE OFFICAL Raspberry Pi Beginner's Gu
 ## Programming
 Thonny Python IDE is used in this project to run the codes. The codes with comments can be found in ThingSpeakDHT22.py in this repository. Do take note that API key has to be adapted to the one found in created thingspeak's channel. The is recommended to run for error check and a result in Python console should be shown as such in file:"Python_console_readings.png". Then go into thingspeak channel:"Raspberry Pi + DHT22 Temperature & Humidity Sensor" to see the visualized data. 
 
-## Visualisation of Data on ThingSpeak
+## Visualization of Data on ThingSpeak
 Refer to file: 
 
-## Viewing the visualisation on your Phone
+## Viewing the visualization on your Phone
 To access the visualized signal data on your phone, it can be done either by accessing thingspeak.com with phone's browser or through Thingview app. This can be easily done by installing Thingview app onto phone and sign in with Thingspeak account. Then key in the channel id of "Raspberry Pi + DHT22 Temperature & Humidity Sensor". Figure in file:"xxxx" shows the visualisation of humidity and temperature readings in the underground bedroom with time as x-axis. 
 
 ## Video
-Refer to file:"xxxxx"
-Simulating the summer situation, turn on the heater to higher
+Refer to file:"xxxxx".
+The video shows the pipeline of this IoT project and a simulation experiment is done to test the feasibility of this IoT project. The summer summer condition in the underground bedroom is simulated by turning on heater to warm up the room. Then, after the 5 minutes mark, fan is switched on remotely using Kasa app and the temperature and humidity in the room are monitored with both Python script and ThingSpeak visualization. turn on the heater to higher
 
 
 ## Recommendation:
